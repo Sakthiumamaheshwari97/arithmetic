@@ -1,3 +1,3 @@
-s,u,m=input().split()
-fut=int(s)+int(u)+int(m)
-print(fut)
+s,u,m=map(int,input().split())
+if(1<=s,u,m<=100000):
+   print((s*u)+(s*m))
